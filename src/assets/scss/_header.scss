@@ -1,0 +1,101 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background-color: var(--white);
+    box-shadow: 0 0 10px var(--white200);
+    font-family: var(--fontE);
+    padding: 1rem;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--pointcolor);
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--white200);
+        margin-bottom: 10px;
+
+    }
+
+    ul {
+        margin-bottom: 50px;
+
+        li {
+            margin-bottom: 10px;
+            padding: 0.5rem;
+            border: 1px solid var(--white500);
+            border-radius: 10px;
+            box-shadow: 0 2px 2px var(--white200);
+
+            a {
+                font-size: 20px;
+            }
+
+            &:hover {
+                background-color: var(--pointcolor);
+                transition: all 0.3s;
+            }
+
+            .icon {
+                width: 20px;
+                height: 20px;
+                background-size: 20px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 14px;
+                vertical-align: -4px;
+                border-radius: 3px;
+            }
+
+            &:nth-child(1) .icon {
+                background-image: url(../img/icon-melon.jpg);
+            }
+
+            &:nth-child(2) .icon {
+                background-image: url(../img/icon-bugs.jpg);
+            }
+
+            &:nth-child(3) .icon {
+                background-image: url(../img/icon-apple.jpg);
+            }
+
+            &:nth-child(4) .icon {
+                background-image: url(../img/icon-genie.jpg);
+            }
+
+            &:nth-child(5) .icon {
+                background-image: url(../img/icon-bill.jpg);
+            }
+
+            .icon2 {
+                width: 20px;
+                height: 20px;
+                background-size: 20px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 14px;
+                vertical-align: -4px;
+                border-radius: 3px;
+            }
+
+            &:nth-child(1) .icon2 {
+                background-image: url(../img/recent.png);
+            }
+
+            &:nth-child(2) .icon2 {
+                background-image: url(../img/favorites.png);
+            }
+
+            &:nth-child(3) .icon2 {
+                background-image: url(../img/mymusic.png);
+            }
+        }
+    }
+}
