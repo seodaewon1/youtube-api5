@@ -15,9 +15,11 @@
 - sass 설치 `npm install sass` : CSS 라이브러리
 - react-helmet-asyne 설치 `npm install react-helmet-async` : SEO
 - swiper 설치 `npm install swiper` : 이미지 슬라이트
+- spinners 설치 `npm install react-spinners` : 로딩소스
+- datepicker 설치 `npm install react-datepicker` : 로딩소스
 
 ````
-npm install react-router-dom axios react-icons react-player sass react-helmet-async swiper
+npm install react-router-dom axios react-icons react-player sass react-helmet-async swiper spinner datepicker
 ````
 
 01. 기본 셋팅
